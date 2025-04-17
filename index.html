@@ -1,0 +1,500 @@
+F<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-container"></div>
+    
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1><span class="highlight">Vinaya V R</span></h1>
+                <h2>Software Developer</h2>
+                <p>Student pursuing B.Tech Computer Science and Engineering (2023-2027) at SRM Institute of Science and Technology, Vadapalani Campus</p>
+                <div class="cta-buttons">
+                    <a href="#project" class="btn primary-btn">View My Projects</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/vinayavr" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vinaya-v-r-107238292/" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/vinaya.v.r/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="profile.jpeg" alt="Profile photo">
+                </div>
+                <div class="about-text">
+    
+                    <p>I'm Vinaya, Pursuing the realms of B.Tech Computer Science Engineering at SRMIST Vadapalani,
+                        Chennai. I'm a technical enthusiast ready to continuously learn and expand my skill set. 
+                        Passionate about exploring diverse opportunities in the technical world. 
+                        Open to connect with professionals for knowledge exchange and collaborative opportunities.</p>
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">10337vinaya.v.r@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Location:</span>
+                            <span class="info-value">Chennai</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="section-header">
+                <h2>My Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <h4>HTML</h4>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                            <h4>CSS</h4>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <h4>JavaScript</h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                            <h4>Python</h4>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h4>MongoDB</h4>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-server"></i></div>
+                            <h4>C</h4>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h4>MySQL</h4>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-github"></i></div>
+                            <h4>Github</h4>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+                            <h4>Command Line</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="certifications" class="certifications">
+            <div class="section-header">
+                <h2>My Certifications</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="certification-container">
+                <div class="certification-grid">
+                    <!-- NPTEL Certifications -->
+                    <div class="certification-item">
+                        <h4>Database Management System</h4>
+                        <p class="cert-issuer">NPTEL</p>
+                        <p class="cert-date">Issued Apr 2025</p>
+                    </div>
+                    
+                    <div class="certification-item">
+                        <h4>DESIGN THINKING-A PRIMER</h4>
+                        <p class="cert-issuer">NPTEL</p>
+                        <p class="cert-date">Issued Sep 2024</p>
+                    </div>
+                    
+                    <div class="certification-item">
+                        <h4>Programming Data structures and algorithms using Python</h4>
+                        <p class="cert-issuer">NPTEL</p>
+                        <p class="cert-date">Issued Sep 2024</p>
+                    </div>
+                    
+                    <div class="certification-item">
+                        <h4>INTRODUCTION TO PROGRAMMING IN C</h4>
+                        <p class="cert-issuer">NPTEL</p>
+                        <p class="cert-date">Issued Apr 2024</p>
+                    </div>
+                    
+                    <!-- AWS Certifications -->
+                    <div class="certification-item">
+                        <h4>AWS Cloud Architecting</h4>
+                        <p class="cert-issuer">Amazon Web Services (AWS)</p>
+                        <p class="cert-date">Issued Mar 2025</p>
+                    </div>
+                    
+                    <div class="certification-item">
+                        <h4>AWS Cloud Foundations</h4>
+                        <p class="cert-issuer">Amazon Web Services (AWS)</p>
+                        <p class="cert-date">Issued Mar 2025</p>
+                    </div>
+                    
+                    <!-- ISRO Certification -->
+                    <div class="certification-item">
+                        <h4>Geodata Processing using Python and Machine Learning</h4>
+                        <p class="cert-issuer">Indian Institute of Remote Sensing (IIRS), Indian Space Research Organization (ISRO)</p>
+                        <p class="cert-date">Issued Mar 2025</p>
+                    </div>
+                    
+                    <!-- C-DAC Certification -->
+                    <div class="certification-item">
+                        <h4>Cloud Computing</h4>
+                        <p class="cert-issuer">Centre for Development of Advanced Computing (C-DAC)</p>
+                        <p class="cert-date">Issued Jan 2025</p>
+                    </div>
+                    
+                    <!-- Scaler Certification -->
+                    <div class="certification-item">
+                        <h4>Data Structures in C++</h4>
+                        <p class="cert-issuer">Scaler</p>
+                        <p class="cert-date">Issued Nov 2024</p>
+                    </div>
+                    
+                    <!-- Infosys Certifications -->
+                    <div class="certification-item">
+                        <h4>Introduction to Unix</h4>
+                        <p class="cert-issuer">Infosys Springboard</p>
+                        <p class="cert-date">Issued Oct 2024</p>
+                    </div>
+                    
+                    <div class="certification-item">
+                        <h4>Linux For Beginners</h4>
+                        <p class="cert-issuer">Infosys Springboard</p>
+                        <p class="cert-date">Issued Oct 2024</p>
+                    </div>
+                    
+                    <!-- MongoDB Certifications -->
+                    <div class="certification-item">
+                        <h4>Introduction to MongoDB for Students</h4>
+                        <p class="cert-issuer">MongoDB</p>
+                        <p class="cert-date">Issued Jul 2024</p>
+                    </div>
+                    
+                    <div class="certification-item">
+                        <h4>MongoDB Basics</h4>
+                        <p class="cert-issuer">MongoDB</p>
+                        <p class="cert-date">Issued Sep 2023</p>
+                    </div>
+                    
+                    <!-- Cisco Certification -->
+                    <div class="certification-item">
+                        <h4>Introduction to Cybersecurity</h4>
+                        <p class="cert-issuer">Cisco Networking Academy</p>
+                        <p class="cert-date">Issued Dec 2023</p>
+                    </div>
+                    
+                    <!-- Great Learning Certification -->
+                    <div class="certification-item">
+                        <h4>C for Beginners</h4>
+                        <p class="cert-issuer">Great Learning</p>
+                        <p class="cert-date">Issued Nov 2023</p>
+                    </div>
+                    
+                    <!-- Automation Anywhere Certification -->
+                    <div class="certification-item">
+                        <h4>Automation Anywhere Bot Aspirant</h4>
+                        <p class="cert-issuer">Automation Anywhere</p>
+                        <p class="cert-date">Issued Sep 2023</p>
+                    </div>
+                    
+                    <!-- MathWorks Certification -->
+                    <div class="certification-item">
+                        <h4>Computer Vision Onramp</h4>
+                        <p class="cert-issuer">MathWorks</p>
+                        <p class="cert-date">Issued Sep 2023</p>
+                    </div>
+                    
+                    <!-- Microsoft Certifications -->
+                    <div class="certification-item">
+                        <h4>Microsoft Learn AI Builder Challenge</h4>
+                        <p class="cert-issuer">Microsoft</p>
+                        <p class="cert-date">Issued Sep 2023</p>
+                    </div>
+                    
+                    <div class="certification-item">
+                        <h4>Microsoft Learn Machine Learning Challenge</h4>
+                        <p class="cert-issuer">Microsoft</p>
+                        <p class="cert-date">Issued Sep 2023</p>
+                    </div>
+                    
+                    <!-- UiPath Certification -->
+                    <div class="certification-item">
+                        <h4>UIPath Studio Diploma</h4>
+                        <p class="cert-issuer">UiPath</p>
+                        <p class="cert-date">Issued Sep 2023</p>
+                    </div>
+                    
+                    <!-- ICT Academy Certification -->
+                    <div class="certification-item">
+                        <h4>ICT Learnathon 2023</h4>
+                        <p class="cert-issuer">ICT Academy</p>
+                        <p class="cert-date">Issued Aug 2023</p>
+                    </div>
+                    
+                    <!-- Google Certification -->
+                    <div class="certification-item">
+                        <h4>Android Basics with compose</h4>
+                        <p class="cert-issuer">Google for Developers</p>
+                        <p class="cert-date">Issued 2023</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="project" id="project">
+            <div class="heading">
+              <h2>My <span>Projects</span></h2>
+            </div>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h4>Easy Parking System</h4>
+                        <p>This Python-based application features a user-friendly graphical user interface (GUI) designed to efficiently manage vehicle parking in small to medium-sized buildings. Tailored for residential or office spaces that offer free parking, the system streamlines the process of vehicle entry, exit, and slot availability tracking. With a simple interface and practical functionality, it ensures smooth parking operations without the complexity or cost associated with commercial parking management systems.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>MySQL</span>
+                            <span>PyQt6</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/vinayavr/Easy-Parking-System.git" class="project-link" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+                        </div>
+                    </div>
+                </div>
+              <div class="project-card">
+                <div class="project-info">
+                    <h4>CO PO Automation </h4>
+                    <h4>(21 Regulation)</h4>
+                    <p>A project developed for SRM Institute of Science and Technology (SRMIST) to assist faculty in real-time calculation of Course Outcomes (CO) and Programme Outcomes (PO) for students. The system generates an Excel template based on uploaded Cycle Test (CT) question papers in PDF format and utilizes the CLA4 mark split, aligned with the entered Course Outcome mapping values, to compute and analyze outcomes effectively.</p>  
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>pdfPlumber</span>
+                        <span>openPyXL</span>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/vinayavr/21_regulation-CO-PO-Automation.git" class="project-link" target="_blank"><i class="fab fa-github"></i>Github</a>
+                </div>
+                </div>
+              <div class="project-card">
+                <div class="project-info">
+                  <h4>Internal Assessment Marks Reporting System</h4>
+                  <p>A clean, user-friendly dashboard interface designed for faculty to seamlessly navigate and monitor student performance. The dashboard supports dynamic report generation based on students' academic data, enabling the evaluation of individual and overall performance across various assessments. It includes interactive data visualizations such as charts and graphs to provide clear insights into Course Outcomes (CO) and Programme Outcomes (PO), helping educators make informed decisions and take necessary academic interventions.</p>
+                  <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Python</span>
+                    <span>Flask</span>
+                    <span>MySQL</span>
+                </div>
+
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/vinayavr/Internal_assesment_marks_reporting_system.git" class="project-link" target="_blank"><i class="fab fa-github"></i>Github</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+          
+        <section id="contact" class="contact">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>10337vinaya.v.r@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+91 78458 43820</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Chennai, Tamilnadu</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <a href="https://github.com/vinayavr" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/vinaya-v-r-107238292/" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/vinaya.v.r/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name" style="color:black">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" style="color:black">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" style="color:black">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" style="color:black">Message</label>
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <div class="footer-nav">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="https://github.com/vinayavr" class="social-icon" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/vinaya-v-r-107238292/" class="social-icon" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/vinaya.v.r/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Vinaya. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile navigation toggle
+        document.querySelector('.burger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('nav-active');
+            document.querySelector('.burger').classList.toggle('toggle');
+        });
+        
+        // Project filtering
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+        
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+                
+                const filterValue = btn.getAttribute('data-filter');
+                
+                projectCards.forEach(card => {
+                    if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+        
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                
+                // Close mobile nav if open
+                document.querySelector('.nav-links').classList.remove('nav-active');
+                document.querySelector('.burger').classList.remove('toggle');
+            });
+        });
+    </script>
+</body>
+</html>
